@@ -1,0 +1,115 @@
+[
+  {
+    "type": "Dog",
+    "name": "Buddy",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "size": "Large",
+    "care_schedule": [
+      {
+        "task": "Walk",
+        "frequency_days": 1,
+        "last_done": "2024-07-04"
+      },
+      {
+        "task": "Feed",
+        "frequency_days": 1,
+        "last_done": "2024-07-05"
+      },
+      {
+        "task": "Bath",
+        "frequency_days": 7,
+        "last_done": "2024-06-28"
+      },
+      {
+        "task": "Vet Checkup",
+        "frequency_days": 90,
+        "last_done": "2024-04-15"
+      }
+    ],
+    "health_records": [
+      {
+        "type": "Vaccination",
+        "description": "Annual vaccination including rabies, distemper, and parvovirus",
+        "date": "2024-04-15"
+      },
+      {
+        "type": "Checkup",
+        "description": "Regular health checkup - all good, weight 32kg",
+        "date": "2024-04-15"
+      }
+    ]
+  },
+  {
+    "type": "Cat",
+    "name": "Whiskers",
+    "age": 2,
+    "breed": "Persian",
+    "indoor": true,
+    "care_schedule": [
+      {
+        "task": "Feed",
+        "frequency_days": 1,
+        "last_done": "2024-07-05"
+      },
+      {
+        "task": "Litter Box Clean",
+        "frequency_days": 2,
+        "last_done": "2024-07-03"
+      },
+      {
+        "task": "Brush",
+        "frequency_days": 3,
+        "last_done": "2024-07-02"
+      },
+      {
+        "task": "Vet Checkup",
+        "frequency_days": 90,
+        "last_done": "2024-05-01"
+      }
+    ],
+    "health_records": [
+      {
+        "type": "Vaccination",
+        "description": "Feline vaccination - FVRCP and rabies",
+        "date": "2024-05-01"
+      }
+    ]
+  },
+  {
+    "type": "Bird",
+    "name": "Tweety",
+    "age": 1,
+    "breed": "Canary",
+    "can_fly": true,
+    "care_schedule": [
+      {
+        "task": "Feed",
+        "frequency_days": 1,
+        "last_done": "2024-07-05"
+      },
+      {
+        "task": "Cage Clean",
+        "frequency_days": 3,
+        "last_done": "2024-07-02"
+      },
+      {
+        "task": "Wing Trim",
+        "frequency_days": 60,
+        "last_done": "2024-05-15"
+      },
+      {
+        "task": "Vet Checkup",
+        "frequency_days": 180,
+        "last_done": "2024-01-20"
+      }
+    ],
+    "health_records": [
+      {
+        "type": "Checkup",
+        "description": "Initial health check when adopted - healthy bird",
+        "date": "2024-01-20"
+      }
+    ]
+  }
+]
